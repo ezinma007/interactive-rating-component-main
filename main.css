@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border box ;
+    font-family: "Overpass" sans-serif;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light: hsl(217, 12%, 63%);
+    --Medium: hsl(216, 12%, 54%);
+    --Dark: hsl(213, 19%, 18%);
+    --Very:  hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+
+}
+main{
+    width:400px ;
+    background-color:var(--Very) ;
+    border-radius: 20px;
+    padding:30px ;
+    margin: 0 auto;
+}
+form .rating-text{
+color:var(--White) ;
+font-size: 1.7rem;
+padding: 20px 0;
+
+}
+/* .form{ */
+    /* display: none; */
+/* } */
+
+
+
+.form .rating-para{
+    color: var(--Light);
+    padding: 20px 0;
+
+}
+.form .input-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    font-size:1.1rem ;
+    color: var(--Medium-Grey);
+    background-color: var(--Very-Dark-Blue);
+
+}
+.form .submit{
+    width: 100%;
+    border-radius: 50%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    font-weight: 400 ;
+    background-color: var(--Orange);
+    color: var(--White);
+    letter-spacing: 2px;
+
+}
+.form .submit:hover{
+background-color: var(--White);
+color: var(--Orange);
+}
+section{
+    display: none;
+}
+.form figure{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: var(--Dark);
+    width: fit-content;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.form .btn:hover{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+.active{
+    background-color:var(--Light) ;
+    color: var(--White);
+}
+
+.section{
+text-align: center;
+}
+.selected{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: var(--Dark);
+    color: var(--Orange);
+    width: 170px;
+    margin: 20px auto;
+
+}
+.thx{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--White);
+}
+.para{
+    color: var(--Medium);
+}
